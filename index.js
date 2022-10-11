@@ -1,6 +1,7 @@
 'use strict';
 
-// YOU KNOW WHAT TO DO //
+// Create documentation for each function in your library -- use function declaration syntax //
+ // Don't forget to create the module.exports.<func name>; for each documentation entry //
 
 /**
  * each: Designed to loop over a collection, Array or Object, and applies the 
@@ -22,3 +23,8 @@ function each(collection, action) {
     }
 }
 module.exports.each = each;
+
+
+/**
+ * @return {Value}
+ */
